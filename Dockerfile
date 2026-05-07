@@ -17,4 +17,4 @@ WORKDIR /app/apps/api
 
 EXPOSE 9000
 
-CMD ["sh", "-c", "./node_modules/.bin/medusa db:migrate && node /app/packages/cli/dist/index.js start"]
+CMD ["sh", "-c", "./node_modules/.bin/medusa db:migrate && if [ -n \"$SEED_ADMIN_PASSWORD\" ] && [ -n \"$SEED_VENDOR_PASSWORD\" ]; then ./node_modules/.bin/medusa exec ./src/scripts/seed-accounts.ts; else echo 'Skipping account seed: SEED_ADMIN_PASSWORD and SEED_VENDOR_PASSWORD are required.'; fi && node /app/packages/cli/dist/index.js start"]
