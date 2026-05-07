@@ -1,5 +1,5 @@
-import { loadEnv } from '@medusajs/framework/utils'
-import { withMercur } from '@mercurjs/core'
+const { loadEnv } = require('@medusajs/framework/utils')
+const { withMercur } = require('@mercurjs/core')
 
 loadEnv(process.env.NODE_ENV || 'development', process.cwd())
 
