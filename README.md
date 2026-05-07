@@ -1,7 +1,7 @@
-![Mercur Main Cover](https://cdn.prod.website-files.com/6790aeffc4b432ccaf1b56e5/67a225dc6fa298afc1cc4ae6_Mercur%20Cover.png)
+![Bizyul Main Cover](https://cdn.prod.website-files.com/6790aeffc4b432ccaf1b56e5/67a225dc6fa298afc1cc4ae6_Mercur%20Cover.png)
 
 <div align="center">
-  <h1>Mercur <br> Open Source Marketplace Platform</h1> 
+  <h1>Bizyul <br> Open Source Marketplace Platform</h1>
   <!-- Shields.io Badges -->
   <a href="https://github.com/mercurjs/mercur/tree/main?tab=MIT-1-ov-file">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg" />
@@ -17,27 +17,27 @@
   </a>
   <!-- Website Links -->
   <p>
-    <a href="https://mercurjs.com/">Mercur</a> |   <a href="https://docs.mercurjs.com/">Docs</a> 
+    <a href="https://mercurjs.com/">Bizyul</a> |   <a href="https://docs.mercurjs.com/">Docs</a>
   </p> 
 </div>
 
-# What is Mercur?
+# What is Bizyul?
 
-<a href="https://www.mercurjs.com/">Mercur</a> is the first
+<a href="https://www.mercurjs.com/">Bizyul</a> is the first
 truly limitless open source marketplace platform that
 combines the simplicity of SaaS with the freedom of open
 source. Built on
-[MedusaJS](https://github.com/medusajs/medusa), it empowers
+[Bizyul](https://github.com/medusajs/medusa), it empowers
 businesses to create custom marketplaces without choosing
 between ownership and ease of use.
 
-Mercur is a platform to start, customize, manage, and scale
+Bizyul is a platform to start, customize, manage, and scale
 your marketplace for every business model with a modern
 technology stack.
 
-## What's new in Mercur 2.0
+## What's new in Bizyul 2.0
 
-**Mercur 2.0** is a major rearchitecture of the platform built by [@vholik](https://github.com/vholik), [@Si3r4dz](https://github.com/Si3r4dz), and [@gtomaka](https://github.com/gtomaka).
+**Bizyul 2.0** is a major rearchitecture of the platform built by [@vholik](https://github.com/vholik), [@Si3r4dz](https://github.com/Si3r4dz), and [@gtomaka](https://github.com/gtomaka).
 
 - **Block-based architecture** — reusable modules, workflows, API routes, and UI extensions installable via CLI
 - **Vendor portal** — a standalone React-based vendor dashboard
@@ -47,7 +47,7 @@ technology stack.
 
 ## Using with AI Agents
 
-Mercur is built to be AI-agent friendly. Your AI coding assistant can use these resources to understand and work with Mercur projects:
+Bizyul is built to be AI-agent friendly. Your AI coding assistant can use these resources to understand and work with Bizyul projects:
 
 - **MCP Server**: `https://docs.mercurjs.com/mcp` — connect your agent for documentation search
 - **llms.txt**: `https://docs.mercurjs.com/llms.txt` — machine-readable project summary
@@ -55,11 +55,11 @@ Mercur is built to be AI-agent friendly. Your AI coding assistant can use these 
 - **Skills**: `.claude/skills/` shipped with templates — domain-specific patterns for Claude Code
 - **AI Development Guide**: [docs.mercurjs.com/v2/ai-development/mcp](https://docs.mercurjs.com/v2/ai-development/mcp)
 
-## Why Choose Mercur?
+## Why Choose Bizyul?
 
 - Full Ownership: Unlike SaaS platforms, you own your
   marketplace with no transaction fees or vendor lock-in
-- Modern Foundation: Built on MedusaJS, offering a modern
+- Modern Foundation: Built on Bizyul, offering a modern
   tech stack that developers love
 - Beautiful by Default: Create stunning storefronts without
   sacrificing customization
@@ -73,7 +73,7 @@ Mercur is built to be AI-agent friendly. Your AI coding assistant can use these 
 - eCommerce Extension: Transform your store into a
   marketplace (coming soon)
 
-![Mercur Use Cases](https://cdn.prod.website-files.com/6790aeffc4b432ccaf1b56e5/67b46aa08180d5b8499c6a15_Use-cases.jpg)
+![Bizyul Use Cases](https://cdn.prod.website-files.com/6790aeffc4b432ccaf1b56e5/67b46aa08180d5b8499c6a15_Use-cases.jpg)
 &nbsp;
 
 # Ready-to-go marketplace features
@@ -104,13 +104,13 @@ Contact us to get demo </a>
 for payments and Resend for communication needs. More
 integrations coming soon.
 
-![Mercur](https://cdn.prod.website-files.com/6790aeffc4b432ccaf1b56e5/67a1020f202572832c954ead_6b96703adfe74613f85133f83a19b1f0_Fleek%20Tilt%20-%20Readme.png)
+![Bizyul](https://cdn.prod.website-files.com/6790aeffc4b432ccaf1b56e5/67a1020f202572832c954ead_6b96703adfe74613f85133f83a19b1f0_Fleek%20Tilt%20-%20Readme.png)
 
 &nbsp;
 
 ## Quickstart
 
-**Step 1**: Create a new Mercur project and start the development server:
+**Step 1**: Create a new Bizyul project and start the development server:
 
 ```bash
 bunx @mercurjs/cli@latest create my-marketplace
@@ -140,7 +140,7 @@ bun run dev
 
 ## Contribution
 
-Mercur is an Open Source project and we encourage everyone to help us making it better. If you are interested in contributing to the project, please read our [Contributing Guide](https://raw.githubusercontent.com/mercurjs/mercur/refs/heads/new/CONTRIBUTING.md) and [Code of Conduct](https://raw.githubusercontent.com/mercurjs/mercur/refs/heads/new/CODE_OF_CONDUCT.md).
+Bizyul is an Open Source project and we encourage everyone to help us making it better. If you are interested in contributing to the project, please read our [Contributing Guide](https://raw.githubusercontent.com/mercurjs/mercur/refs/heads/new/CONTRIBUTING.md) and [Code of Conduct](https://raw.githubusercontent.com/mercurjs/mercur/refs/heads/new/CODE_OF_CONDUCT.md).
 
 If you have any questions about contributing, please join our [Discord server](https://discord.gg/hnZBzc4NJU) - we are happy to help you!
 
@@ -148,12 +148,12 @@ Discovered a 🐜 or have feature suggestion? Feel free to [create an issue](htt
 
 # Resources
 
-#### Learn more about Mercur
+#### Learn more about Bizyul
 
-- [Mercur Website](https://www.mercurjs.com/)
-- [Mercur Docs](https://docs.mercurjs.com/introduction)
+- [Bizyul Website](https://www.mercurjs.com/)
+- [Bizyul Docs](https://docs.mercurjs.com/introduction)
 
-#### Learn more about Medusa
+#### Learn more about Bizyul
 
-- [Medusa Website](https://www.medusajs.com/)
-- [Medusa Docs](https://docs.medusajs.com/v2)
+- [Bizyul Website](https://www.medusajs.com/)
+- [Bizyul Docs](https://docs.medusajs.com/v2)

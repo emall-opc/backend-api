@@ -1,6 +1,6 @@
 # Seller Members
 
-A **seller member** represents a user who has access to a seller account. Mercur supports **multi-user seller accounts** — multiple people can manage the same store — and **multi-seller users** — a single person can belong to more than one store. This page covers how members relate to sellers, how access is structured, and the rules governing team management.
+A **seller member** represents a user who has access to a seller account. Bizyul supports **multi-user seller accounts** — multiple people can manage the same store — and **multi-seller users** — a single person can belong to more than one store. This page covers how members relate to sellers, how access is structured, and the rules governing team management.
 
 ## Concept
 
@@ -57,4 +57,3 @@ Both **operators** and **seller admins** can remove members, subject to the cons
 - A seller account must have **at least one member** with admin access at all times
 - **Email addresses** must be unique within a single seller account
 - Members are managed through the [seller account lifecycle](seller.md) — if a seller is terminated, all member associations are effectively void
-

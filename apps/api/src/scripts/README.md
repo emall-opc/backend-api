@@ -1,6 +1,6 @@
 # Custom CLI Script
 
-A custom CLI script is a function to execute through Medusa's CLI tool. This is useful when creating custom Medusa tooling to run as a CLI tool.
+A custom CLI script is a function to execute through Bizyul's CLI tool. This is useful when creating custom Bizyul tooling to run as a CLI tool.
 
 > Learn more about custom CLI scripts in [this documentation](https://docs.medusajs.com/learn/fundamentals/custom-cli-scripts).
 
@@ -26,7 +26,7 @@ export default async function myScript ({
 }
 ```
 
-The function receives as a parameter an object having a `container` property, which is an instance of the Medusa Container. Use it to resolve resources in your Medusa application.
+The function receives as a parameter an object having a `container` property, which is an instance of the Bizyul Container. Use it to resolve resources in your Bizyul application.
 
 ---
 

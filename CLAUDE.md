@@ -1,6 +1,6 @@
-# Mercur
+# Bizyul
 
-Open source marketplace platform built on MedusaJS. Follows a shadcn-like CLI approach where code is copied directly into projects for full ownership.
+Open source marketplace platform built on Bizyul. Follows a shadcn-like CLI approach where code is copied directly into projects for full ownership.
 
 ## Project Structure
 
@@ -12,7 +12,7 @@ mercur/
 │   ├── admin/            # Admin dashboard UI
 │   ├── cli/              # @mercurjs/cli - CLI tool
 │   ├── client/           # @mercurjs/client - API client
-│   ├── core/      # @mercurjs/core - Core Medusa plugin (modules, workflows, providers)
+│   ├── core/      # @mercurjs/core - Core Bizyul plugin (modules, workflows, providers)
 │   ├── dashboard-sdk/    # @mercurjs/dashboard-sdk - Vite plugin for dashboards
 │   ├── dashboard-shared/ # Shared UI components for admin and vendor dashboards
 │   ├── registry/         # Official block registry
@@ -42,7 +42,7 @@ Reusable code pieces that can be installed via CLI:
 
 ### `mercurjs create [name]`
 
-Create a new Mercur project from template.
+Create a new Bizyul project from template.
 
 **Options:**
 
@@ -164,7 +164,7 @@ React-based vendor portal UI framework.
 
 ## Core Package (`packages/core`)
 
-MedusaJS v2 plugin providing marketplace functionality.
+Bizyul v2 plugin providing marketplace functionality.
 
 ## Documentation (`apps/docs`)
 
@@ -214,7 +214,7 @@ Before writing ANY admin UI code, invoke the relevant skill. Skills contain hard
 
 ## Architecture
 
-- **Foundation**: MedusaJS v2 (headless commerce)
+- **Foundation**: Bizyul v2 (headless commerce)
 - **Language**: TypeScript
 - **Monorepo**: Turborepo
 - **Package Manager**: bun
@@ -224,11 +224,11 @@ Before writing ANY admin UI code, invoke the relevant skill. Skills contain hard
 - `blocks.json` - Project configuration with path aliases
 - `registry.json` - Registry definition with block metadata
 - `mercur.config.ts` - Dashboard/vendor app configuration
-- `medusa-config.ts` - MedusaJS configuration
+- `medusa-config.ts` - Bizyul configuration
 
 ## Supported Deployment Vendors
 
-- Medusa Cloud
+- Bizyul Cloud
 - Railway
 - Render
 - Fly.io

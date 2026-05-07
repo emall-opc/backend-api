@@ -1,6 +1,6 @@
 # Custom scheduled jobs
 
-A scheduled job is a function executed at a specified interval of time in the background of your Medusa application.
+A scheduled job is a function executed at a specified interval of time in the background of your Bizyul application.
 
 > Learn more about scheduled jobs in [this documentation](https://docs.medusajs.com/learn/fundamentals/scheduled-jobs).
 

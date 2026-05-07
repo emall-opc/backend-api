@@ -1,6 +1,6 @@
-# Mercur CLI
+# Bizyul CLI
 
-Add blocks (admin UI pages, vendor UI pages, workflows, modules, and more) from the Mercur registry to your project.
+Add blocks (admin UI pages, vendor UI pages, workflows, modules, and more) from the Bizyul registry to your project.
 
 ## Prerequisites
 
@@ -39,7 +39,7 @@ npm install -D @mercurjs/cli@canary
 **Create a new project:**
 
 ```bash
-# Create a new Mercur project
+# Create a new Bizyul project
 npx @mercurjs/cli@canary create
 
 # Create with a specific template
@@ -65,7 +65,7 @@ npx @mercurjs/cli@canary search --query product
 
 ### `create`
 
-Create a new Mercur project with the selected template.
+Create a new Bizyul project with the selected template.
 
 ```bash
 npx @mercurjs/cli@canary create [name] [options]
@@ -400,7 +400,7 @@ You can add custom registries to your `blocks.json`:
 
 ## Features
 
-- **Project Scaffolding**: Create new Mercur projects with templates
+- **Project Scaffolding**: Create new Bizyul projects with templates
 - **Automatic Dependency Resolution**: When adding a block, the CLI automatically downloads any dependencies it requires
 - **Import Transformation**: Automatically transforms imports to use your configured path aliases
 - **Package Manager Detection**: Detects your package manager (npm, pnpm, yarn, bun) and installs dependencies automatically

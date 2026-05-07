@@ -1,6 +1,6 @@
 # Custom Module
 
-A module is a package of reusable functionalities. It can be integrated into your Medusa application without affecting the overall system. You can create a module as part of a plugin.
+A module is a package of reusable functionalities. It can be integrated into your Bizyul application without affecting the overall system. You can create a module as part of a plugin.
 
 > Learn more about modules in [this documentation](https://docs.medusajs.com/learn/fundamentals/modules).
 
@@ -58,7 +58,7 @@ export default Module(BLOG_MODULE, {
 })
 ```
 
-## 4. Add Module to Medusa's Configurations
+## 4. Add Module to Bizyul's Configurations
 
 To start using the module, add it to `medusa-config.ts`:
 
@@ -91,7 +91,7 @@ npx medusa db:migrate
 
 ## Use Module
 
-You can use the module in customizations within the Medusa application, such as workflows and API routes.
+You can use the module in customizations within the Bizyul application, such as workflows and API routes.
 
 For example, to use the module in an API route:
 

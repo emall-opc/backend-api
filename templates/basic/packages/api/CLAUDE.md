@@ -11,7 +11,7 @@ Read this guide when a task touches:
 ## Scope
 
 `packages/api` owns:
-- Medusa backend configuration in `medusa-config.ts`
+- Bizyul backend configuration in `medusa-config.ts`
 - custom code under `src/`
 - route type codegen consumed through `./_generated`
 - backend tests and verification commands
@@ -36,7 +36,7 @@ If `src/` does not exist yet, create only the folders needed for the feature:
 
 ## `blocks.json` relationship
 
-Blocks installed through Mercur CLI route backend files through the `api` alias:
+Blocks installed through Bizyul CLI route backend files through the `api` alias:
 - `api` -> `packages/api/src`
 
 If a block touches backend code, inspect:

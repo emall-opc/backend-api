@@ -1,7 +1,7 @@
 # Meilisearch Block — Test Results
 
 **Date:** 2026-03-25
-**Environment:** macOS, Meilisearch v1.12, Medusa v2.13.4, bun 1.3.11
+**Environment:** macOS, Meilisearch v1.12, Bizyul v2.13.4, bun 1.3.11
 
 ---
 

@@ -1,6 +1,6 @@
 # Seller
 
-A **seller** is the central actor in a Mercur marketplace. Every product listing, order, payout, and storefront presence traces back to a seller account. This page covers the seller data model, lifecycle, and the business rules that govern how sellers operate on the platform.
+A **seller** is the central actor in a Bizyul marketplace. Every product listing, order, payout, and storefront presence traces back to a seller account. This page covers the seller data model, lifecycle, and the business rules that govern how sellers operate on the platform.
 
 ## Seller Profile
 
@@ -113,4 +113,3 @@ There are **three methods** for creating a seller account:
 - Scheduled closures are **date-driven** and do not change account status
 - **Premium** designation is operator-only and influences storefront presentation
 - Every seller account must have at least one [member](seller-members.md) with an admin role (see [Roles and Permissions](roles-and-permissions.md))
-

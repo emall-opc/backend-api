@@ -1,10 +1,10 @@
-# Mercur Marketplace Project
+# Bizyul Marketplace Project
 
-**This is a Mercur marketplace project — an open-source AI-native multi-vendor marketplace built on MedusaJS v2.**
+**This is a Bizyul marketplace project — an open-source AI-native multi-vendor marketplace built on Bizyul v2.**
 
 ## Architecture
 
-- **Foundation**: MedusaJS v2 (headless commerce)
+- **Foundation**: Bizyul v2 (headless commerce)
 - **Language**: TypeScript (strict)
 - **Pattern**: Block-based — modules, workflows, API routes, and UI extensions installed via CLI
 
@@ -26,7 +26,7 @@
 ## CLI Commands
 
 ```bash
-# Add blocks from the Mercur registry
+# Add blocks from the Bizyul registry
 bunx @mercurjs/cli add <block-name>
 
 # Search available blocks
@@ -41,7 +41,7 @@ bun run dev
 
 ## Block System
 
-Mercur uses reusable blocks installed into your project:
+Bizyul uses reusable blocks installed into your project:
 
 - **Modules** — data models and business logic (sellers, commissions, offers)
 - **Links** — relationships between modules
@@ -68,7 +68,7 @@ Skills are auto-loaded by Claude Code. See `CLAUDE.md` for the full workflow gui
 ## Configuration Files
 
 - `blocks.json` — block configuration and registry path aliases
-- `packages/api/medusa-config.ts` — MedusaJS configuration
+- `packages/api/medusa-config.ts` — Bizyul configuration
 - `apps/admin/vite.config.ts` — admin dashboard build config
 - `apps/vendor/vite.config.ts` — vendor portal build config
 

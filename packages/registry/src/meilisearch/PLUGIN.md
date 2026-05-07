@@ -1,8 +1,8 @@
-# Meilisearch Search Block for Mercur
+# Meilisearch Search Block for Bizyul
 
 ## What It Does
 
-The Meilisearch Search block adds fast, full-text product search to your Mercur marketplace. Shoppers can find products instantly by typing keywords, filtering by category, price range, or seller — all with results appearing in milliseconds.
+The Meilisearch Search block adds fast, full-text product search to your Bizyul marketplace. Shoppers can find products instantly by typing keywords, filtering by category, price range, or seller — all with results appearing in milliseconds.
 
 This is an **opt-in block**: it only activates when you install it and connect a Meilisearch instance. Your marketplace works normally without it.
 
@@ -45,7 +45,7 @@ Marketplace administrators get two tools:
 ## What You Need
 
 ### Meilisearch Instance
-Meilisearch is an open-source search engine. You need a running instance accessible from your Mercur server.
+Meilisearch is an open-source search engine. You need a running instance accessible from your Bizyul server.
 
 **Options:**
 - **Meilisearch Cloud** (meilisearch.com) — managed hosting, easiest setup
@@ -55,8 +55,8 @@ You will need:
 - The Meilisearch **host URL** (e.g., `https://search.yourmarketplace.com`)
 - A Meilisearch **API key** (the master key or an admin key)
 
-### Mercur Marketplace
-A running Mercur marketplace with products and sellers already configured.
+### Bizyul Marketplace
+A running Bizyul marketplace with products and sellers already configured.
 
 ---
 
@@ -64,7 +64,7 @@ A running Mercur marketplace with products and sellers already configured.
 
 ### Step 1: Install the Block
 
-From your Mercur project root, run:
+From your Bizyul project root, run:
 
 ```bash
 npx @mercurjs/cli add meilisearch
@@ -137,7 +137,7 @@ docker run -d \
 
 ### Step 5: Restart and Sync
 
-1. Restart your Medusa server:
+1. Restart your Bizyul server:
    ```bash
    npm run dev
    ```
@@ -237,7 +237,7 @@ Triggers a full re-index of all published products.
 
 ## Storefront Integration
 
-Your storefront should call the search endpoint using the Medusa JS SDK:
+Your storefront should call the search endpoint using the Bizyul JS SDK:
 
 ```typescript
 import Medusa from "@medusajs/js-sdk"
@@ -277,7 +277,7 @@ For autocomplete/typeahead, use a debounced version of the same endpoint with a 
 
 ## Frequently Asked Questions
 
-**Does this replace the default Medusa product listing?**
+**Does this replace the default Bizyul product listing?**
 No. The default product listing continues to work. Meilisearch provides an additional, faster search experience. You can use both.
 
 **What happens if Meilisearch goes down?**
@@ -296,4 +296,4 @@ Product titles, descriptions, handles, categories, tags, variant details, prices
 The block configures sensible defaults (title, description, handle, categories, tags, seller name are searchable; price and category ID are filterable). You can adjust the settings in `src/modules/meilisearch/service.ts` in the `ensureSettings()` method.
 
 **Is there a cost?**
-Meilisearch itself is open source and free to self-host. Meilisearch Cloud offers managed hosting with paid plans. The Mercur block is free.
+Meilisearch itself is open source and free to self-host. Meilisearch Cloud offers managed hosting with paid plans. The Bizyul block is free.

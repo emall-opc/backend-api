@@ -2,7 +2,7 @@
 
 This directory contains the source files for your registry blocks. Each block should be organized in its own directory.
 
-> Learn more about building blocks in the [Mercur documentation](https://docs.mercurjs.com).
+> Learn more about building blocks in the [Bizyul documentation](https://docs.mercurjs.com).
 
 ## Block Structure
 

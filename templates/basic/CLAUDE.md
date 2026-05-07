@@ -1,6 +1,6 @@
-# Mercur Basic Starter Agent Guide
+# Bizyul Basic Starter Agent Guide
 
-This file is the primary workflow guide for agents working inside a project created from the `basic` Mercur template.
+This file is the primary workflow guide for agents working inside a project created from the `basic` Bizyul template.
 
 Use this file to answer four questions before making a non-trivial change:
 - where should I work?
@@ -12,7 +12,7 @@ This starter does not require a spec-first workflow. Teams can add planning arti
 
 ## Adding Features — Check the Registry First
 
-Before implementing any new marketplace feature from scratch, always search the official Mercur registry:
+Before implementing any new marketplace feature from scratch, always search the official Bizyul registry:
 
 ```bash
 npx @mercurjs/cli@latest search --query <keyword>
@@ -85,7 +85,7 @@ Typical checks:
 
 ## Starter Notes
 
-- Mercur CLI registry commands run from the project root where `blocks.json` lives.
+- Bizyul CLI registry commands run from the project root where `blocks.json` lives.
 - Backend verification often runs from `packages/api`.
 - Admin and vendor custom routes are file-based under `src/pages`.
 - If a task is about blocks, always use `mercur-blocks`.

@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Meilisearch block provides full-text product search for multi-vendor Mercur marketplaces. This document covers the test suite architecture, how to run tests, and how to extend coverage.
+The Meilisearch block provides full-text product search for multi-vendor Bizyul marketplaces. This document covers the test suite architecture, how to run tests, and how to extend coverage.
 
 ## Test Architecture
 
@@ -21,7 +21,7 @@ Unit tests run in isolation with mocked dependencies. No Meilisearch instance or
 
 ### Integration Tests (`integration-tests/http/meilisearch/`)
 
-Integration tests use `medusaIntegrationTestRunner` from `@medusajs/test-utils` to spin up a full Medusa server with a real database. The `meilisearch` npm package is mocked via `jest.mock()` so no running Meilisearch instance is needed.
+Integration tests use `medusaIntegrationTestRunner` from `@medusajs/test-utils` to spin up a full Bizyul server with a real database. The `meilisearch` npm package is mocked via `jest.mock()` so no running Meilisearch instance is needed.
 
 | File | Coverage |
 |------|----------|
@@ -82,7 +82,7 @@ The `MEILISEARCH_HOST` env var activates the meilisearch module in `medusa-confi
 
 ## Integration Test Infrastructure
 
-The integration tests simulate the block being "installed" in a Medusa project via pass-through files:
+The integration tests simulate the block being "installed" in a Bizyul project via pass-through files:
 
 ```
 integration-tests/
@@ -119,12 +119,12 @@ All 5 subscriber handlers wrap their bodies in `try/catch`, log errors with `log
 ### Unit Tests
 
 - **`meilisearch` npm package**: Mocked via `jest.mock('meilisearch')` at module level. Returns a mock `MeiliSearch` class whose `.index()` method returns mock `addDocuments`, `deleteDocuments`, `search`, `getStats`, `updateSettings` functions.
-- **Medusa container**: Constructed via `makeContainer()` factories that return mock `resolve()` functions mapping service keys to mock objects.
+- **Bizyul container**: Constructed via `makeContainer()` factories that return mock `resolve()` functions mapping service keys to mock objects.
 - **`meilisearch-product` utilities**: Mocked in `subscribers.unit.spec.ts` to isolate subscriber logic from transformer logic.
 
 ### Integration Tests
 
-- **`meilisearch` npm package**: Same `jest.mock('meilisearch')` approach. Since jest hoists mock declarations before imports, the mock is in place when `MeilisearchModuleService` is instantiated during Medusa server startup.
+- **`meilisearch` npm package**: Same `jest.mock('meilisearch')` approach. Since jest hoists mock declarations before imports, the mock is in place when `MeilisearchModuleService` is instantiated during Bizyul server startup.
 - **Database**: Real PostgreSQL via `medusaIntegrationTestRunner`. Products, sellers, and users are created in `beforeEach` hooks.
 
 ## File Structure
@@ -173,7 +173,7 @@ integration-tests/
 ### Adding a Unit Test
 
 1. Create the file in `packages/registry/src/meilisearch/__tests__/` with the `.unit.spec.ts` suffix
-2. Mock external dependencies (`meilisearch`, Medusa container) at module level
+2. Mock external dependencies (`meilisearch`, Bizyul container) at module level
 3. Import the module under test using relative paths
 4. Run with `cd packages/registry && bun test`
 

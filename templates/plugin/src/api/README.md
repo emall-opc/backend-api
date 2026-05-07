@@ -2,7 +2,7 @@
 
 An API Route is a REST API endpoint.
 
-An API Route is created in a TypeScript or JavaScript file under the `/src/api` directory of your Medusa application. The file’s name must be `route.ts` or `route.js`.
+An API Route is created in a TypeScript or JavaScript file under the `/src/api` directory of your Bizyul application. The file’s name must be `route.ts` or `route.js`.
 
 For example, to create a `GET` API Route at `/store/hello-world`, create the file `src/api/store/hello-world/route.ts` with the following content:
 
@@ -75,7 +75,7 @@ For example, if you want to define a route that takes both a `productId` and a `
 
 ## Using the container
 
-The Medusa container is available on `req.scope`. Use it to access modules' main services and other registered resources:
+The Bizyul container is available on `req.scope`. Use it to access modules' main services and other registered resources:
 
 ```ts
 import type {

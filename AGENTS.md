@@ -1,12 +1,12 @@
-# Mercur
+# Bizyul
 
-**Open-source AI-native marketplace framework built on MedusaJS v2.**
+**Open-source AI-native marketplace framework built on Bizyul v2.**
 
-Mercur provides reusable building blocks for multi-vendor marketplaces: seller management, commissions, payouts, order splitting, vendor portals, and admin dashboards. Code is copied into your project for full ownership — no black-box dependencies.
+Bizyul provides reusable building blocks for multi-vendor marketplaces: seller management, commissions, payouts, order splitting, vendor portals, and admin dashboards. Code is copied into your project for full ownership — no black-box dependencies.
 
 ## Architecture
 
-- **Foundation**: MedusaJS v2 (headless commerce)
+- **Foundation**: Bizyul v2 (headless commerce)
 - **Language**: TypeScript (strict)
 - **Monorepo**: Turborepo with bun
 - **Pattern**: Block-based — modules, workflows, API routes, and UI extensions installed via CLI
@@ -19,7 +19,7 @@ mercur/
 ├── packages/admin/         # Admin dashboard UI
 ├── packages/cli/           # @mercurjs/cli — scaffolding, blocks, codegen
 ├── packages/client/        # @mercurjs/client — typed API client
-├── packages/core/   # @mercurjs/core — core Medusa plugin
+├── packages/core/   # @mercurjs/core — core Bizyul plugin
 ├── packages/dashboard-sdk/ # Vite plugin for dashboard apps
 ├── packages/registry/      # Official block registry
 ├── packages/types/         # @mercurjs/types — shared type definitions
@@ -54,7 +54,7 @@ bunx @mercurjs/cli@latest view <block-name>
 
 ## Block System
 
-Mercur uses a block-based architecture where reusable pieces of functionality are installed into your project:
+Bizyul uses a block-based architecture where reusable pieces of functionality are installed into your project:
 
 - **Modules** — data models and business logic (sellers, commissions, offers, reviews)
 - **Links** — relationships between modules (e.g., linking sellers to products)
@@ -71,13 +71,13 @@ bunx @mercurjs/cli@latest add seller commission payout
 
 ## Skills
 
-Mercur ships `.claude/skills/` with project templates. Skills provide AI agents with domain-specific patterns for admin UI, forms, tabs, compound components, and code review. They are auto-loaded by Claude Code.
+Bizyul ships `.claude/skills/` with project templates. Skills provide AI agents with domain-specific patterns for admin UI, forms, tabs, compound components, and code review. They are auto-loaded by Claude Code.
 
 ## Configuration Files
 
 - `blocks.json` — project block configuration and path aliases
 - `mercur.config.ts` — dashboard/vendor app configuration
-- `medusa-config.ts` — MedusaJS configuration
+- `medusa-config.ts` — Bizyul configuration
 
 ## Getting Started
 

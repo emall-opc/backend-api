@@ -43,7 +43,7 @@ Load the matching skill before editing page, form, or tab-heavy UI.
 - Keep routing explicit and aligned with file-based page structure.
 - Prefer existing local wrappers and `@medusajs/ui` before introducing new primitives or custom components.
 - Use i18n for user-facing strings instead of hardcoded copy.
-- Prefer typed API usage through shared Mercur client patterns.
+- Prefer typed API usage through shared Bizyul client patterns.
 - Preserve loading, error, empty, and success states when extending screens.
 - Keep page composition intentional: header, actions, sections, and data states should be easy to scan.
 

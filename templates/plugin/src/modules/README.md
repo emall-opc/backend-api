@@ -1,6 +1,6 @@
 # Custom Module
 
-A module is a package of reusable functionalities. It can be integrated into your Medusa application without affecting the overall system. You can create a module as part of a plugin.
+A module is a package of reusable functionalities. It can be integrated into your Bizyul application without affecting the overall system. You can create a module as part of a plugin.
 
 Learn more about modules in [this documentation](https://docs.medusajs.com/learn/fundamentals/modules).
 
@@ -68,7 +68,7 @@ npx medusa plugin:db:genreate
 
 ## Use Module
 
-You can use the module in customizations within the plugin or within the Medusa application using this plugin. When the plugin is added to a Medusa application, all its modules are registered as well.
+You can use the module in customizations within the plugin or within the Bizyul application using this plugin. When the plugin is added to a Bizyul application, all its modules are registered as well.
 
 For example, to use the module in an API route:
 
@@ -95,7 +95,7 @@ export async function GET(
 
 ## Module Options
 
-When you register the plugin in the Medusa application, it can accept options. These options are passed to the modules within the plugin:
+When you register the plugin in the Bizyul application, it can accept options. These options are passed to the modules within the plugin:
 
 ```ts
 import { defineConfig } from "@medusajs/framework/utils"

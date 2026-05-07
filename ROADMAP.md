@@ -1,4 +1,4 @@
-Mercur Roadmap
+Bizyul Roadmap
 
 This roadmap shows high-level product initiatives and direction.
 

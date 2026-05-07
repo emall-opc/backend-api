@@ -2,7 +2,7 @@
 
 You can create module providers, such as Notification or File Module Providers under a sub-directory of this directory. For example, `src/providers/my-notification`.
 
-Then, you register them in the Medusa application as `plugin-name/providers/my-notification`:
+Then, you register them in the Bizyul application as `plugin-name/providers/my-notification`:
 
 ```ts
 module.exports = defineConfig({

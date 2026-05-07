@@ -1,6 +1,6 @@
-# Mercur Basic Template
+# Bizyul Basic Template
 
-This template comes configured with the bare minimum to get started building your marketplace with Mercur.
+This template comes configured with the bare minimum to get started building your marketplace with Bizyul.
 
 ## Quick Start
 
@@ -37,7 +37,7 @@ bun install
 bun dev
 ```
 
-5. Open `http://localhost:9000` to access the Medusa backend
+5. Open `http://localhost:9000` to access the Bizyul backend
 6. Open `http://localhost:7000` to access the admin dashboard
 6. Open `http://localhost:7001` to access the vendor dashboard
 
@@ -49,7 +49,7 @@ This monorepo includes the following packages and apps:
 
 ### Apps and Packages
 
-- `packages/api` - The Medusa backend with all marketplace functionality
+- `packages/api` - The Bizyul backend with all marketplace functionality
 - `apps/admin` - Admin dashboard customizations
 - `apps/vendor` - Vendor portal customizations
 
@@ -60,7 +60,7 @@ This monorepo includes the following packages and apps:
 │   ├── admin/          # Admin dashboard extensions
 │   └── vendor/         # Vendor portal extensions
 ├── packages/
-│   └── api/            # Medusa backend
+│   └── api/            # Bizyul backend
 │       ├── src/
 │       │   ├── api/         # Custom API routes
 │       │   ├── jobs/        # Background jobs
@@ -70,7 +70,7 @@ This monorepo includes the following packages and apps:
 │       │   ├── subscribers/ # Event subscribers
 │       │   └── workflows/   # Business workflows
 │       └── medusa-config.ts
-├── blocks.json         # Mercur blocks configuration
+├── blocks.json         # Bizyul blocks configuration
 ├── package.json
 └── turbo.json
 ```
@@ -85,7 +85,7 @@ This project has some additional tools already setup for you:
 
 ## How It Works
 
-The Mercur basic template is built on top of [Medusa](https://medusajs.com) and is pre-configured for marketplace functionality.
+The Bizyul basic template is built on top of [Bizyul](https://medusajs.com) and is pre-configured for marketplace functionality.
 
 ### Modules
 
@@ -105,7 +105,7 @@ Links define relationships between modules. See the [Links](https://docs.medusaj
 
 ## Adding Blocks
 
-You can extend your project with pre-built blocks using the Mercur CLI:
+You can extend your project with pre-built blocks using the Bizyul CLI:
 
 ```bash
 bunx @mercurjs/cli add block-name

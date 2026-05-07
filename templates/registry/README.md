@@ -1,21 +1,21 @@
-# Mercur Registry Template
+# Bizyul Registry Template
 
-A template repo to create a [Mercur](https://mercurjs.com) registry with reusable blocks.
+A template repo to create a [Bizyul](https://mercurjs.com) registry with reusable blocks.
 
-Mercur is built with a robust infrastructure intended to support Blocks with ease. This provides a simple, modular, and reusable way for developers to extend the core capabilities of Mercur.
+Bizyul is built with a robust infrastructure intended to support Blocks with ease. This provides a simple, modular, and reusable way for developers to extend the core capabilities of Bizyul.
 
-To build your own Mercur blocks, all you need is:
+To build your own Bizyul blocks, all you need is:
 
-- An understanding of the basic Medusa/Mercur concepts
+- An understanding of the basic Bizyul concepts
 - And some JavaScript/Typescript experience
 
 ## Background
 
-Here is a short recap on how blocks work with Mercur, to learn more visit the [Mercur documentation](https://docs.mercurjs.com).
+Here is a short recap on how blocks work with Bizyul, to learn more visit the [Bizyul documentation](https://docs.mercurjs.com).
 
 ### How to install a block
 
-To install any block, simply use the Mercur CLI:
+To install any block, simply use the Bizyul CLI:
 
 ```bash
 npx @mercurjs/cli add block-name
@@ -269,10 +269,10 @@ Here are best practices we follow when building blocks:
 - **Document thoroughly**: Include clear documentation in the `docs` field explaining configuration, environment variables, and usage.
 - **Declare dependencies**: Always list required NPM packages in `dependencies` and other blocks in `registryDependencies`.
 - **Use meaningful names**: Choose descriptive names for blocks, modules, and files that clearly indicate their purpose.
-- **Test your blocks**: Ensure blocks work correctly before publishing by testing them in a real Mercur project.
-- **Version compatibility**: Document which versions of Medusa/Mercur your blocks are compatible with.
+- **Test your blocks**: Ensure blocks work correctly before publishing by testing them in a real Bizyul project.
+- **Version compatibility**: Document which Bizyul versions your blocks are compatible with.
 - **Publish to NPM**: Share your registry by publishing it as an NPM package for others to use.
 
 ## Questions
 
-Please contact [Mercur](mailto:support@mercurjs.com) with any questions about using this registry template.
+Please contact [Bizyul](mailto:support@mercurjs.com) with any questions about using this registry template.

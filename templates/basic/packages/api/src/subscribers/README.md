@@ -1,6 +1,6 @@
 # Custom subscribers
 
-Subscribers handle events emitted in the Medusa application.
+Subscribers handle events emitted in the Bizyul application.
 
 > Learn more about Subscribers in [this documentation](https://docs.medusajs.com/learn/fundamentals/events-and-subscribers).
 
@@ -34,7 +34,7 @@ A subscriber file must export:
 A subscriber receives an object having the following properties:
 
 - `event`: An object holding the event's details. It has a `data` property, which is the event's data payload.
-- `container`: The Medusa container. Use it to resolve modules' main services and other registered resources.
+- `container`: The Bizyul container. Use it to resolve modules' main services and other registered resources.
 
 ```ts
 import type {

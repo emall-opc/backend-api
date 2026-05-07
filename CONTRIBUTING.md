@@ -1,6 +1,6 @@
-# Contributing to Mercur
+# Contributing to Bizyul
 
-We’re excited to collaborate with folks building on top of Mercur. This guide explains how we organize releases, structure branches, and prepare pull requests so changes land smoothly.
+We’re excited to collaborate with folks building on top of Bizyul. This guide explains how we organize releases, structure branches, and prepare pull requests so changes land smoothly.
 
 ## Branch Model
 

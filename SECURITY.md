@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in Mercur, **please report it privately** — do not open a public GitHub issue.
+If you discover a security vulnerability in Bizyul, **please report it privately** — do not open a public GitHub issue.
 
 **Email:** [hello@rigbyjs.com](mailto:hello@rigbyjs.com)
 

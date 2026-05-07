@@ -19,7 +19,7 @@ export default defineLink(
 
 This defines a link between the Product Module's `product` data model and the Blog Module (custom module)'s `post` data model.
 
-Then, in the Medusa application, run the following command to sync the links to the database:
+Then, in the Bizyul application, run the following command to sync the links to the database:
 
 ```bash
 npx medusa db:migrate
