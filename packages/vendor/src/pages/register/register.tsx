@@ -30,7 +30,7 @@ const RegisterHeader = () => {
     <div className="mb-6 flex flex-col">
       <Heading>{t("register.title")}</Heading>
       <Text size="small" className="text-ui-fg-subtle">
-        {t("register.hint", { name: config.name ?? "Mercur" })}
+        {t("register.hint", { name: config.name ?? "Bizyul" })}
       </Text>
     </div>
   )

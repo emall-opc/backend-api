@@ -96,7 +96,7 @@ export const Login = () => {
           data-testid="login-header"
         >
           <Heading data-testid="login-title">
-            {t("login.title", { name: config.name ?? "Mercur" })}
+            {t("login.title", { name: config.name ?? "Bizyul" })}
           </Heading>
           <Text
             size="small"

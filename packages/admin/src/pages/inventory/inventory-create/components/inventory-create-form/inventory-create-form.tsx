@@ -89,7 +89,7 @@ export function InventoryCreateForm({
       }
     )
 
-    // @ts-expect-error — Mercur SDK extension
+    // @ts-expect-error — Bizyul SDK extension
     await sdk.admin.inventoryItem.batchUpdateLevels(inventory_item.id, {
         create: Object.entries(formLocations ?? {})
           .filter(([_, quantiy]) => !!quantiy)
