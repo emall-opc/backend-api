@@ -19,6 +19,7 @@
   ],
   "scripts": {
     "seed": "medusa exec ./src/scripts/seed.ts",
+    "seed:accounts": "medusa exec ./src/scripts/seed-accounts.ts",
     "start": "mercurjs start",
     "dev": "mercurjs develop",
     "test:integration:http": "TEST_TYPE=integration:http NODE_OPTIONS=--experimental-vm-modules jest --silent=false --runInBand --forceExit",
